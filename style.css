@@ -1,0 +1,223 @@
+:root{
+    --veryDarkBlue: hsl(243, 87%, 12%);
+    --desaturatedBlue: hsl(238, 22%, 44%);
+    --brightBlue: hsl(224, 93%, 58%);
+    --moderateCyan: hsl(170, 45%, 43%);
+    --lightgrayishBlue: hsl(240, 75%, 98%);
+    --lightGray: hsl(0, 0%, 75%);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    /* background-color: var(--lightgrayishBlue); */
+    font-family: 'Open Sans', sans-serif;    
+}
+
+header{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1,h2,h3,h4,input[type='button']{
+   font-family: 'Raleway', sans-serif; 
+}
+
+header img{
+    width: 30%;
+    height: 30%;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--veryDarkBlue);
+}
+
+.principal img{
+    width: 90%;
+    height: 90%;
+    display: block;
+    margin: auto;
+}
+
+.access{
+    text-align: center;
+    line-height: 1.5;
+    color: var(--veryDarkBlue);
+    padding: 2rem;
+    background-image: url('./images/bg-curve-mobile.svg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+p{
+    font-weight: 700;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+input{
+    width: 100%;
+    padding: 0.7rem 1rem;
+    margin: 0.7rem auto;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type='email']{
+    border: solid 1px var(--veryDarkBlue);
+    
+}
+
+input[type='email']::placeholder{
+    color: var(--lightGray);
+}
+
+input[type='button']{
+    background-color: var(--brightBlue);
+    color: var(--lightgrayishBlue);
+    font-weight: 700;
+    box-shadow: 1px 3px 3px var(--lightGray);
+    margin-bottom: 7rem;
+}
+
+.productive{
+    background-color: var(--lightgrayishBlue);
+    text-align: center;
+    padding: 3rem 2rem;
+    font-size: 0.7rem;
+}
+
+.productive h2{
+    margin-top: 5rem;
+}
+
+.work{
+    color: var(--moderateCyan);
+}
+
+.work div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: auto;    
+}
+
+.work img{
+    width: 10%;
+    height: 10%;
+    text-align: justify;
+    margin: 1rem 0 1rem 0.5rem;
+}
+
+hr{
+    width: 30vh;
+    margin-top: -0.6rem;
+    background-color: var(--moderateCyan);
+    border: none;
+    height: 1.2px;
+    opacity: 0.7;
+}
+
+.comments{
+    width: 90%;
+    background-color: white;
+    margin: 3rem auto 0;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+}
+
+.comments p{
+    background-image: url('./images/icon-quotes.svg');
+    background-repeat: no-repeat;
+    padding-top: 1.5rem;
+    text-align: justify;
+    justify-content: flex-start;
+    margin: 0;
+    font-size: 0.7rem;
+    line-height: 2;
+    font-weight: 700;
+}
+
+.burton{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    width: 70%;
+    font-size: 0.55rem;
+}
+
+.burton img{
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+    margin: 0;
+}
+
+.burton div{
+    text-align: left;
+}
+
+h3{
+    margin: 0;
+    text-align: justify;
+}
+
+.early{
+    background-color: var(--desaturatedBlue);
+    padding: 4rem 2rem;
+    color: var(--lightgrayishBlue);
+    text-align: center;
+}
+
+h4{
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.early p{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.early input{
+    width: 80%;
+}
+
+.early input[type='button']{
+    margin-bottom: 0;
+    box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+.attribution {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
