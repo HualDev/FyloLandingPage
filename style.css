@@ -82,12 +82,13 @@ input[type='email']{
     margin-bottom: 0;  
 }
 
-input[type='label']{
-    width: 100%;
+label{
     margin: 0;
     padding: 0;
     color: hsl(0, 100%, 63%); 
     margin-bottom: 7rem;
+    text-align: justify;
+    width: 80%;
 }
 
 .nShow{
@@ -224,7 +225,7 @@ h4{
     width: 80%;
 }
 
-.early input[type='label']{
+.early label{
     background-color: transparent;
     margin: auto;
     color: var(--lightgrayishBlue);    
@@ -349,11 +350,11 @@ footer{
         width: 50%;    
     }
 
-    .early input[type='label']{
+    .early label{
         margin: 0;        
     }
 
-    input[type='label']{
+    input label{
        width: 80%;
        margin-bottom: 0;
     }
