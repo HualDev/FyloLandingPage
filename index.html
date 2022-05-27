@@ -35,8 +35,9 @@
             Access them wherever you need, share and collaborate with friends, 
             family, and co-workers.
           </p>
-          <input type="email" placeholder="Enter your email">
-          <input type="button" value="Get Started">
+          <input id="mail" type="email" placeholder="Enter your email">          
+          <input type="button" value="Get Started" onClick="pruebaemail(mail.value)">
+          <input id="error" class="nShow" type="label" value="please, check your email">
         </div>
       </section>
 
@@ -85,8 +86,9 @@
         </div>
 
         <div>
-          <input type="email" placeholder="Enter your email...">
-          <input type="button" value="Get Started For Free">
+          <input id="email" type="email" placeholder="Enter your email...">
+          <input id="error1" class="nShow" type="label" value="please, check your email">
+          <input type="button" value="Get Started For Free" onClick="pruebaemail1(email.value)">
         </div>
       </section>
     </div>
@@ -129,17 +131,6 @@
     </footer>
     
   </main>
-  
-  
-  
-  
-
-  
-  
-  
-
-  
-    
-  
+  <script src="./fylo.js"></script>
 </body>
 </html>

@@ -78,7 +78,24 @@ input{
 }
 
 input[type='email']{
-    border: solid 1px var(--veryDarkBlue);    
+    border: solid 1px var(--veryDarkBlue);
+    margin-bottom: 0;  
+}
+
+input[type='label']{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: hsl(0, 100%, 63%); 
+    margin-bottom: 7rem;
+}
+
+.nShow{
+    display: none;
+}
+
+.show{
+    display: block;
 }
 
 input[type='email']::placeholder{
@@ -90,7 +107,7 @@ input[type='button']{
     color: var(--lightgrayishBlue);
     font-weight: 700;
     box-shadow: 1px 3px 3px var(--lightGray);
-    margin-bottom: 7rem;
+    
 }
 
 input[type='button']:hover{
@@ -207,6 +224,12 @@ h4{
     width: 80%;
 }
 
+.early input[type='label']{
+    background-color: transparent;
+    margin: auto;
+    color: var(--lightgrayishBlue);    
+}
+
 .early input[type='button']{
     margin-bottom: 0;
     box-shadow: none;
@@ -295,7 +318,7 @@ footer{
         align-items: center;
         justify-content: space-around;
         background-image: url('./images/bg-curve-desktop.svg');
-        padding-bottom: 15rem;
+        padding-bottom: 5rem;
     }
 
     .access img{
@@ -317,10 +340,18 @@ footer{
     input[type='email']{
         width: 50%;    
     }
+
+    .early input[type='label']{
+        margin: 0;        
+    }
+
+    input[type='label']{
+       margin-left: 2rem; 
+    }
     
     input[type='button']{
         width: 30%;
-        margin: 0;
+        margin: 0.5rem 0 0;
     }
 
     .productive{
