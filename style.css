@@ -328,7 +328,7 @@ footer{
     .access img{
         width: 40%;
         height: 40%;
-        margin: 0;
+        margin: 0 0 5rem 0;
     }
 
     .access div{
@@ -354,8 +354,8 @@ footer{
     }
 
     input[type='label']{
-       /* margin-left: 2rem;  */
        width: 80%;
+       margin-bottom: 0;
     }
     
     input[type='button']{
